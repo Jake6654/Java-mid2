@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="399de8a5-886c-4277-a8e5-c15dd1f1830e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/generic/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/animal/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/animal/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex1/BoxMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex1/GenericBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex2/AnimalMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/ex2/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ContainerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/PairTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/BoxMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/ex1/BoxMain1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/BoxMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/ex1/BoxMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/IntegerBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/ex1/IntegerBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/ObjectBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/ex1/ObjectBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/StringBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/ex1/StringBox.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Jake6654"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Jake6654/Java-mid2.git",
+    "accountId": "ee4fd377-99ea-41db-8361-84aaece45e96"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2mAh2b2T31WLc2rpNVFLVnQxnes" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnimalMain1.executor": "Run",
+    "Application.BoxMain2.executor": "Run",
+    "Application.BoxMain3.executor": "Run",
+    "Application.ContainerTest.executor": "Run",
+    "Application.PairTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/jake/IdeaProjects/Java-mid2/src/generic/animal",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/generic/animal" />
+      <recent name="$PROJECT_DIR$/src/generic/ex1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="generic.ex2" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="399de8a5-886c-4277-a8e5-c15dd1f1830e" name="Changes" comment="" />
+      <created>1726525081528</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726525081528</updated>
+      <workItem from="1726525082577" duration="7662000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
