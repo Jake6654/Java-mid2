@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="399de8a5-886c-4277-a8e5-c15dd1f1830e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generic/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/animal/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/animal/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/ex1/BoxMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/ex1/GenericBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/ex2/AnimalMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/ex2/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/ContainerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/PairTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generic/BoxMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/ex1/BoxMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generic/BoxMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/ex1/BoxMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generic/IntegerBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/ex1/IntegerBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generic/ObjectBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/ex1/ObjectBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generic/StringBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/ex1/StringBox.java" afterDir="false" />
+    <list default="true" id="399de8a5-886c-4277-a8e5-c15dd1f1830e" name="Changes" comment="generics">
+      <change afterPath="$PROJECT_DIR$/src/collection/array/ArrayMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-mid2/generic/test/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-mid2/generic/test/Pair.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,28 +19,34 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Jake6654"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jake6654&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Jake6654/Java-mid2.git",
-    "accountId": "ee4fd377-99ea-41db-8361-84aaece45e96"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Jake6654/Java-mid2.git&quot;,
+    &quot;accountId&quot;: &quot;ee4fd377-99ea-41db-8361-84aaece45e96&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2mAh2b2T31WLc2rpNVFLVnQxnes" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -64,12 +58,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AnimalMain1.executor": "Run",
+    "Application.ArrayMain2.executor": "Run",
     "Application.BoxMain2.executor": "Run",
     "Application.BoxMain3.executor": "Run",
     "Application.ContainerTest.executor": "Run",
+    "Application.MyArrayListMainV1.executor": "Run",
     "Application.PairTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "LB",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/jake/IdeaProjects/Java-mid2/src/generic/animal",
     "node.js.detected.package.eslint": "true",
@@ -86,6 +82,7 @@
       <recent name="$PROJECT_DIR$/src/generic/ex1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="collection.array" />
       <recent name="generic.ex2" />
     </key>
   </component>
@@ -106,10 +103,33 @@
       <option name="presentableId" value="Default" />
       <updated>1726525081528</updated>
       <workItem from="1726525082577" duration="7662000" />
+      <workItem from="1726585383456" duration="78000" />
+      <workItem from="1726618745183" duration="4624000" />
     </task>
+    <task id="LOCAL-00001" summary="generics">
+      <option name="closed" value="true" />
+      <created>1726585443103</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726585443103</updated>
+    </task>
+    <task id="LOCAL-00002" summary="generics">
+      <option name="closed" value="true" />
+      <created>1726585455636</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726585455636</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="generics" />
   </component>
 </project>
