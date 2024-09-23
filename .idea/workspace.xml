@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="399de8a5-886c-4277-a8e5-c15dd1f1830e" name="Changes" comment="collection">
-      <change afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListV3Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/ex3/AnimalHospitalMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/ex3/AnimalHospitalMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/ex3/AnimalHospitalMainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/ex3/AnimalHospitalV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/ex3/AnimalHospitalV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/ex3/CatHospital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/ex3/DogHospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex4/GenericMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,30 +53,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AnimalHospitalMain.executor": "Run",
-    "Application.AnimalMain1.executor": "Run",
-    "Application.ArrayMain2.executor": "Run",
-    "Application.BoxMain2.executor": "Run",
-    "Application.BoxMain3.executor": "Run",
-    "Application.ContainerTest.executor": "Run",
-    "Application.MyArrayListMainV1.executor": "Run",
-    "Application.MyArrayListMainV2.executor": "Run",
-    "Application.MyArrayListV3Main.executor": "Run",
-    "Application.PairTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/jake/IdeaProjects/Java-mid2/src/generic/animal",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnimalHospitalMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnimalMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoxMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoxMain3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContainerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyArrayListMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyArrayListMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyArrayListV3Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PairTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jake/IdeaProjects/Java-mid2/src/generic/animal&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/generic/animal" />
@@ -118,7 +109,9 @@
       <workItem from="1726618745183" duration="4624000" />
       <workItem from="1726766397544" duration="1062000" />
       <workItem from="1726785862350" duration="2699000" />
-      <workItem from="1726789728700" duration="4821000" />
+      <workItem from="1726789728700" duration="4858000" />
+      <workItem from="1726797366636" duration="1596000" />
+      <workItem from="1727043883753" duration="1320000" />
     </task>
     <task id="LOCAL-00001" summary="generics">
       <option name="closed" value="true" />
@@ -136,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726585455636</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="collection">
+      <option name="closed" value="true" />
+      <created>1726797348255</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726797348255</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="generics" />
-    <option name="LAST_COMMIT_MESSAGE" value="generics" />
+    <MESSAGE value="collection" />
+    <option name="LAST_COMMIT_MESSAGE" value="collection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
