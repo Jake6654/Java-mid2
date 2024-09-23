@@ -12,7 +12,7 @@ public class GenericMethod {
         return obj;
     }
 
-    public static <T extends Number> T numberMethod(T t) {
+    public static <T extends Number> T numberMethod(T t) { // 타입 매개변수에 대해서 상한을 줄 수 있다
         System.out.println("bound print: " + t);
         return t;
 
