@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="399de8a5-886c-4277-a8e5-c15dd1f1830e" name="Changes" comment="collection">
-      <change afterPath="$PROJECT_DIR$/src/generic/test/ex4/GenericMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/ex4/Main.java" afterDir="false" />
+    <list default="true" id="399de8a5-886c-4277-a8e5-c15dd1f1830e" name="Changes" comment="generics">
+      <change afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListV3BadMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListV4Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/link/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/link/NodeMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/link/NodeMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/link/NodeMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex4/AnimalMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex4/ComplexBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex4/MethodMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/test/ex4/MethodMain3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-mid2/generic/test/ex3/AnimalHospitalMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-mid2/generic/test/ex3/AnimalHospitalMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,38 +63,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AnimalHospitalMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AnimalMain1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayMain2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BoxMain2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BoxMain3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ContainerTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyArrayListMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyArrayListMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyArrayListV3Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PairTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jake/IdeaProjects/Java-mid2/src/generic/animal&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnimalHospitalMain.executor": "Run",
+    "Application.AnimalMain1.executor": "Run",
+    "Application.ArrayMain2.executor": "Run",
+    "Application.BoxMain2.executor": "Run",
+    "Application.BoxMain3.executor": "Run",
+    "Application.ContainerTest.executor": "Run",
+    "Application.MethodMain2.executor": "Run",
+    "Application.MethodMain3.executor": "Run",
+    "Application.MyArrayListMainV1.executor": "Run",
+    "Application.MyArrayListMainV2.executor": "Run",
+    "Application.MyArrayListV3BadMain.executor": "Run",
+    "Application.MyArrayListV3Main.executor": "Run",
+    "Application.MyArrayListV4Main.executor": "Run",
+    "Application.NodeMain1.executor": "Run",
+    "Application.NodeMain2.executor": "Run",
+    "Application.NodeMain3.executor": "Run",
+    "Application.PairTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/jake/IdeaProjects/Java-mid2/src/generic/animal",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/generic/animal" />
       <recent name="$PROJECT_DIR$/src/generic/ex1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="generic.test.ex3" />
       <recent name="collection.array" />
+      <recent name="generic.test.ex3" />
       <recent name="generic.ex2" />
     </key>
   </component>
@@ -111,7 +128,9 @@
       <workItem from="1726785862350" duration="2699000" />
       <workItem from="1726789728700" duration="4858000" />
       <workItem from="1726797366636" duration="1596000" />
-      <workItem from="1727043883753" duration="1320000" />
+      <workItem from="1727043883753" duration="1349000" />
+      <workItem from="1727105413983" duration="6637000" />
+      <workItem from="1727140470064" duration="2248000" />
     </task>
     <task id="LOCAL-00001" summary="generics">
       <option name="closed" value="true" />
@@ -137,16 +156,24 @@
       <option name="project" value="LOCAL" />
       <updated>1726797348255</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="generics">
+      <option name="closed" value="true" />
+      <created>1727097792805</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727097792805</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="generics" />
     <MESSAGE value="collection" />
-    <option name="LAST_COMMIT_MESSAGE" value="collection" />
+    <MESSAGE value="generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="generics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
