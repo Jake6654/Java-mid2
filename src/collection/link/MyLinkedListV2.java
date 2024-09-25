@@ -20,7 +20,7 @@ public class MyLinkedListV2 {
     }
 
     // 추가 코드
-    public void addAt(int index, Object o){
+    public void add(int index, Object o){
         Node newNode = new Node(o);
         if (index == 0) {
             newNode.next = first;

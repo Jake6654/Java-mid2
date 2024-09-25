@@ -9,13 +9,6 @@ public class Node {
         this.item = item;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Node{" +
-//                "item=" + item +
-//                ", next=" + next +
-//                '}';
-//    }
     // [A->B->C] 모든 노드 출력
     @Override
     public String toString() {
