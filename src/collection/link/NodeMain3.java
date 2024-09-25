@@ -33,8 +33,8 @@ public class NodeMain3 {
 
     }
 
-    private static void add(Node first, String d) {
-        Node lastNode = getLastNode(first); // 마지막 노드를 찾고 새로운 노드를 추가
+    private static void add(Node node, String d) {
+        Node lastNode = getLastNode(node); // 마지막 노드를 찾고 새로운 노드를 추가
         lastNode.next = new Node(d);
 
     }

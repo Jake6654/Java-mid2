@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="399de8a5-886c-4277-a8e5-c15dd1f1830e" name="Changes" comment="generics">
-      <change afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListV3BadMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/array/MyArrayListV4Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/link/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/link/NodeMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/link/NodeMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/link/NodeMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/ex4/AnimalMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/ex4/ComplexBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/ex4/MethodMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test/ex4/MethodMain3.java" afterDir="false" />
+    <list default="true" id="399de8a5-886c-4277-a8e5-c15dd1f1830e" name="Changes" comment="LinkedList">
+      <change afterPath="$PROJECT_DIR$/src/collection/link/MyLinkedListMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/link/MyLinkedListMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/link/MyLinkedListV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/link/MyLinkedListV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/Printable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-mid2/generic/test/ex3/AnimalHospitalMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-mid2/generic/test/ex3/AnimalHospitalMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/link/NodeMain3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/link/NodeMain3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -71,6 +68,7 @@
     "Application.BoxMain2.executor": "Run",
     "Application.BoxMain3.executor": "Run",
     "Application.ContainerTest.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.MethodMain2.executor": "Run",
     "Application.MethodMain3.executor": "Run",
     "Application.MyArrayListMainV1.executor": "Run",
@@ -78,6 +76,8 @@
     "Application.MyArrayListV3BadMain.executor": "Run",
     "Application.MyArrayListV3Main.executor": "Run",
     "Application.MyArrayListV4Main.executor": "Run",
+    "Application.MyLinkedListMainV1.executor": "Run",
+    "Application.MyLinkedListMainV2.executor": "Run",
     "Application.NodeMain1.executor": "Run",
     "Application.NodeMain2.executor": "Run",
     "Application.NodeMain3.executor": "Run",
@@ -100,6 +100,7 @@
       <recent name="$PROJECT_DIR$/src/generic/ex1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="collection.link" />
       <recent name="collection.array" />
       <recent name="generic.test.ex3" />
       <recent name="generic.ex2" />
@@ -130,7 +131,10 @@
       <workItem from="1726797366636" duration="1596000" />
       <workItem from="1727043883753" duration="1349000" />
       <workItem from="1727105413983" duration="6637000" />
-      <workItem from="1727140470064" duration="2248000" />
+      <workItem from="1727140470064" duration="2275000" />
+      <workItem from="1727195146187" duration="1470000" />
+      <workItem from="1727218259967" duration="2445000" />
+      <workItem from="1727220715672" duration="4206000" />
     </task>
     <task id="LOCAL-00001" summary="generics">
       <option name="closed" value="true" />
@@ -164,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727097792805</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="LinkedList">
+      <option name="closed" value="true" />
+      <created>1727142744331</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727142744331</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +185,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="collection" />
     <MESSAGE value="generics" />
-    <option name="LAST_COMMIT_MESSAGE" value="generics" />
+    <MESSAGE value="LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -182,6 +195,11 @@
           <url>file://$PROJECT_DIR$/src/collection/array/MyArrayListMainV2.java</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/collection/link/NodeMain3.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
