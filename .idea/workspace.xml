@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="399de8a5-886c-4277-a8e5-c15dd1f1830e" name="Changes" comment="LinkedList">
-      <change afterPath="$PROJECT_DIR$/src/collection/link/MyLinkedListMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/link/MyLinkedListMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/link/MyLinkedListV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/link/MyLinkedListV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/Printable.java" afterDir="false" />
+    <list default="true" id="399de8a5-886c-4277-a8e5-c15dd1f1830e" name="Changes" comment="finalized Hash Algo">
+      <change afterPath="$PROJECT_DIR$/src/collection/set/MyHashSetV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/set/MyHashSetV1Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/link/NodeMain3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/link/NodeMain3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,50 +55,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AnimalHospitalMain.executor": "Run",
-    "Application.AnimalMain1.executor": "Run",
-    "Application.ArrayMain2.executor": "Run",
-    "Application.BoxMain2.executor": "Run",
-    "Application.BoxMain3.executor": "Run",
-    "Application.ContainerTest.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MethodMain2.executor": "Run",
-    "Application.MethodMain3.executor": "Run",
-    "Application.MyArrayListMainV1.executor": "Run",
-    "Application.MyArrayListMainV2.executor": "Run",
-    "Application.MyArrayListV3BadMain.executor": "Run",
-    "Application.MyArrayListV3Main.executor": "Run",
-    "Application.MyArrayListV4Main.executor": "Run",
-    "Application.MyLinkedListMainV1.executor": "Run",
-    "Application.MyLinkedListMainV2.executor": "Run",
-    "Application.NodeMain1.executor": "Run",
-    "Application.NodeMain2.executor": "Run",
-    "Application.NodeMain3.executor": "Run",
-    "Application.PairTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/jake/IdeaProjects/Java-mid2/src/generic/animal",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnimalHospitalMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnimalMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BatchProcessorMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoxMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BoxMain3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContainerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashStart2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashStart3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashStart4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashStart5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodMain3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyArrayListMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyArrayListMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyArrayListV3BadMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyArrayListV3Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyArrayListV4Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyHashSetV0Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyHashSetV1Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyLinkedListMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyLinkedListMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyListPerformanceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NodeMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NodeMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NodeMain3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PairTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShoppingCartMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jake/IdeaProjects/Java-mid2/src/generic/animal&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/generic/animal" />
       <recent name="$PROJECT_DIR$/src/generic/ex1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="collection.set" />
+      <recent name="collection.list.test" />
+      <recent name="collection.list" />
       <recent name="collection.link" />
       <recent name="collection.array" />
-      <recent name="generic.test.ex3" />
-      <recent name="generic.ex2" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -135,6 +143,15 @@
       <workItem from="1727195146187" duration="1470000" />
       <workItem from="1727218259967" duration="2445000" />
       <workItem from="1727220715672" duration="4206000" />
+      <workItem from="1727235403559" duration="21000" />
+      <workItem from="1727277772036" duration="4078000" />
+      <workItem from="1727308432456" duration="1385000" />
+      <workItem from="1727387958853" duration="4803000" />
+      <workItem from="1727657091319" duration="1202000" />
+      <workItem from="1727658489989" duration="6485000" />
+      <workItem from="1727884266501" duration="3126000" />
+      <workItem from="1727914636138" duration="1000" />
+      <workItem from="1727979404203" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="generics">
       <option name="closed" value="true" />
@@ -176,17 +193,60 @@
       <option name="project" value="LOCAL" />
       <updated>1727142744331</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="LinkedList">
+      <option name="closed" value="true" />
+      <created>1727235414866</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727235414866</updated>
+    </task>
+    <task id="LOCAL-00007" summary="finalize list">
+      <option name="closed" value="true" />
+      <created>1727396309855</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727396309855</updated>
+    </task>
+    <task id="LOCAL-00008" summary="finalized Hash Algo">
+      <option name="closed" value="true" />
+      <created>1727884312033</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727884312033</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.GitHub.CommitStatus.ColumnIdWidth" value="45" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="collection" />
     <MESSAGE value="generics" />
     <MESSAGE value="LinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedList" />
+    <MESSAGE value="finalize list" />
+    <MESSAGE value="finalized Hash Algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalized Hash Algo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -200,6 +260,11 @@
           <url>file://$PROJECT_DIR$/src/collection/link/NodeMain3.java</url>
           <line>37</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/collection/set/HashStart1.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
