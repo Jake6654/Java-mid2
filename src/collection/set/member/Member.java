@@ -27,7 +27,7 @@ public class Member {
     }
 
     @Override
-    public int hashCode() { // 멤버의 id 를 기반으로 해쉬코드를 return 할 수 있도록 메서드를 재정의
+    public int hashCode() {
         return Objects.hashCode(id);
     }
 
