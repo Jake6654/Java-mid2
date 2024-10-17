@@ -3,7 +3,6 @@ package collection.set;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Set;
 
 public class SetStream {
     public static void main(String[] args) {
@@ -12,5 +11,7 @@ public class SetStream {
         integers.stream()
                 .filter(s -> s % 2 == 0)
                 .forEach(s -> System.out.println(s));
+        // 스트림을 사용하더라도 원본 프레임워크에 영향을 주지 않는다
+        System.out.println(integers);
     }
 }

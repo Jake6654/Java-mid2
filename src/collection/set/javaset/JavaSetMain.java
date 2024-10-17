@@ -9,8 +9,13 @@ public class JavaSetMain {
     public static void main(String[] args) {
 
         run(new HashSet<String>()); // hash 알고리즘을 통해 데이터 저장
+        LinkedHashSet<String> strings = new LinkedHashSet<>();
+        run(strings);
+        String first = strings.getFirst();
+        System.out.println(first);
         run(new LinkedHashSet<String>()); // 입력 순서대로 저장
         run(new TreeSet<String>()); // 작은 값 -> 큰 정렬 순서대로 저장
+
     }
 
     private static void run(Set<String>set){
